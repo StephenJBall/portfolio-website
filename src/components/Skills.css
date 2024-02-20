@@ -1,0 +1,77 @@
+.skill-container {
+  max-width: 40vw;
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+label {
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 300;
+  justify-content: center;
+}
+
+.skill-heading {
+  width: 50vw;
+  padding-bottom: 10px;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.skill-icon {
+  font-size: 3rem;
+  padding-right: 30px;
+}
+
+.fa-python:hover {
+  color: #4584b6;
+  transition: all 0.3s ease-out;
+}
+
+.fa-react:hover {
+  color: #61dbfb;
+  transition: all 0.3s ease-out;
+}
+
+.fa-html5:hover {
+  color: #e34c26;
+  transition: all 0.3s ease-out;
+}
+
+.fa-css3:hover {
+  color: #264de4;
+  transition: all 0.3s ease-out;
+}
+
+.fa-js:hover {
+  color: #f0db4f;
+  transition: all 0.3s ease-out;
+}
+
+.fa-database:hover {
+  color: #5e0092;
+  transition: all 0.3s ease-out;
+}
+
+.fa-git:hover {
+  color: #f34f29;
+  transition: all 0.3s ease-out;
+}
+
+.fa-github:hover {
+  color: #424242;
+  transition: all 0.3s ease-out;
+}
+
+.fa-node:hover {
+  color: #3c873a;
+  transition: all 0.3s ease-out;
+}

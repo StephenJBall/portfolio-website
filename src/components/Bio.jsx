@@ -1,5 +1,6 @@
 import React from "react";
 import "./Bio.css";
+import Skills from "./Skills";
 
 function Bio() {
   return (
@@ -22,6 +23,7 @@ function Bio() {
           </p>
         </div>
       </div>
+      <Skills />
     </div>
   );
 }

@@ -1,10 +1,12 @@
+.bio {
+  display: flex;
+}
 .bio-container {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 40vw;
     padding-top: 3rem;
-    border: 1px solid black;
 }
 
 .bio-profile-pic {
