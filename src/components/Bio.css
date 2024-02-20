@@ -1,0 +1,22 @@
+.bio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40vw;
+    padding-top: 3rem;
+    border: 1px solid black;
+}
+
+.bio-profile-pic {
+  filter: grayscale(.4);
+  height: 35vh;
+  width: auto;
+  border-radius: 20%;
+  padding: 1.5rem;
+}
+
+.bio-heading {
+    font-size: 35px;
+    font-weight: 300;
+}
+
