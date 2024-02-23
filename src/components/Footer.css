@@ -1,0 +1,38 @@
+.footer-container {
+    background-color: #9a9a9a;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.linkedin-link {
+    color: #fff;
+}
+
+.linkedin-link:hover {
+    color: #0077b5;
+}
+
+
+.contact-list {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.footer-heading {
+    font-size: 30px;
+}
+
+
+.contact-info {
+    padding: 10px;
+}
+
+.fa-linkedin {
+    font-size: 30px;
+    cursor: pointer;
+}

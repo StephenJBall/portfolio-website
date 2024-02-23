@@ -2,7 +2,7 @@
   max-width: 40vw;
   position: absolute;
   right: 5%;
-  top: 20vh;
+  top: 30vh;
 }
 
 label {
@@ -13,7 +13,6 @@ label {
 }
 
 .skill-heading {
-  width: 50vw;
   padding-bottom: 10px;
 }
 
