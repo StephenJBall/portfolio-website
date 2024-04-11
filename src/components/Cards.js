@@ -11,10 +11,10 @@ function Cards() {
           <ul className="project-cards">
             <ProjectCard
               path="/"
-              label="LetterWatchd"
+              label="redditClone"
               img="images/letterboxd-logo.png"
-              title="LetterWatchd"
-              project_text="Check out my Letterboxd API"
+              title="redditClone"
+              project_text="Check out my Reddit Clone"
               list={
                 <div className="list-container">
                   <li className="project-skill">
@@ -35,10 +35,58 @@ function Cards() {
           <ul className="project-cards">
             <ProjectCard
               path="/"
-              label="LetterWatchd"
+              label="munsterStats"
               img="images/letterboxd-logo.png"
-              title="LetterWatchd"
-              project_text="Check out my Letterboxd API"
+              title="Munster Stats"
+              project_text="Check out Munster Stats"
+              list={
+                <div className="list-container">
+                  <li className="project-skill">
+                    <i className="fab fa-react" />
+                  </li>
+                  <li className="project-skill">
+                    <i className="fab fa-html5" />
+                  </li>
+                  <li className="project-skill">
+                    <i className="fab fa-css3" />
+                  </li>
+                </div>
+              }
+            />
+          </ul>
+        </div>
+        <div className="project-wrapper">
+          <ul className="project-cards">
+            <ProjectCard
+              path="/"
+              label="instantMessagingApp"
+              img="images/letterboxd-logo.png"
+              title="Instant Messaging App"
+              project_text="Check out my Instant Messaging Application"
+              list={
+                <div className="list-container">
+                  <li className="project-skill">
+                    <i className="fab fa-react" />
+                  </li>
+                  <li className="project-skill">
+                    <i className="fab fa-html5" />
+                  </li>
+                  <li className="project-skill">
+                    <i className="fab fa-css3" />
+                  </li>
+                </div>
+              }
+            />
+          </ul>
+        </div>
+        <div className="project-wrapper">
+          <ul className="project-cards">
+            <ProjectCard
+              path="/"
+              label="portfolioWebsite"
+              img="images/letterboxd-logo.png"
+              title="Portfolio Website"
+              project_text="Check out the code for this website"
               list={
                 <div className="list-container">
                   <li className="project-skill">

@@ -104,3 +104,16 @@
   justify-content: space-evenly;
   width: 100%;
 }
+
+@media screen and (min-width: 960px) {
+  .project-card {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
