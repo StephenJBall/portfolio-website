@@ -12,7 +12,7 @@ function Cards() {
             <ProjectCard
               path="/"
               label="redditClone"
-              img="images/letterboxd-logo.png"
+              img="images/reddit-logo.png"
               title="redditClone"
               project_text="Check out my Reddit Clone"
               list={
@@ -36,7 +36,7 @@ function Cards() {
             <ProjectCard
               path="/"
               label="munsterStats"
-              img="images/letterboxd-logo.png"
+              img="images/munster-logo.jpeg"
               title="Munster Stats"
               project_text="Check out Munster Stats"
               list={
@@ -60,7 +60,7 @@ function Cards() {
             <ProjectCard
               path="/"
               label="instantMessagingApp"
-              img="images/letterboxd-logo.png"
+              img="images/instant-messaging-logo.jpeg"
               title="Instant Messaging App"
               project_text="Check out my Instant Messaging Application"
               list={
@@ -84,7 +84,7 @@ function Cards() {
             <ProjectCard
               path="/"
               label="portfolioWebsite"
-              img="images/letterboxd-logo.png"
+              img="images/portfolio-logo.png"
               title="Portfolio Website"
               project_text="Check out the code for this website"
               list={
