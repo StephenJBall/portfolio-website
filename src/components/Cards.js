@@ -1,16 +1,16 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import './Cards.css';
+import "./Cards.css";
 
 function Cards() {
   return (
-    <div className="projects">
+    <div className="projects" id="project-section">
       <h1 className="project-section-heading">Portfolio Projects</h1>
       <div className="project-container">
         <div className="project-wrapper">
           <ul className="project-cards">
             <ProjectCard
-              path="/"
+              path="/reddit"
               label="redditClone"
               img="images/reddit-logo.png"
               title="redditClone"
@@ -21,7 +21,7 @@ function Cards() {
                     <i className="fab fa-react" />
                   </li>
                   <li className="project-skill">
-                    <i className="fab fa-html5" />
+                    <i className="fa fa-database" />
                   </li>
                   <li className="project-skill">
                     <i className="fab fa-css3" />
@@ -34,7 +34,7 @@ function Cards() {
         <div className="project-wrapper">
           <ul className="project-cards">
             <ProjectCard
-              path="/"
+              path="/munster-stats"
               label="munsterStats"
               img="images/munster-logo.jpeg"
               title="Munster Stats"
@@ -42,13 +42,16 @@ function Cards() {
               list={
                 <div className="list-container">
                   <li className="project-skill">
-                    <i className="fab fa-react" />
+                    <i className="fab fa-python" />
                   </li>
                   <li className="project-skill">
                     <i className="fab fa-html5" />
                   </li>
                   <li className="project-skill">
                     <i className="fab fa-css3" />
+                  </li>
+                  <li className="project-skill">
+                    <i className="fa fa-database" />
                   </li>
                 </div>
               }
@@ -58,7 +61,7 @@ function Cards() {
         <div className="project-wrapper">
           <ul className="project-cards">
             <ProjectCard
-              path="/"
+              path="/instant-messaging"
               label="instantMessagingApp"
               img="images/instant-messaging-logo.jpeg"
               title="Instant Messaging App"
@@ -66,7 +69,7 @@ function Cards() {
               list={
                 <div className="list-container">
                   <li className="project-skill">
-                    <i className="fab fa-react" />
+                    <i className="fab fa-js" />
                   </li>
                   <li className="project-skill">
                     <i className="fab fa-html5" />
@@ -82,7 +85,7 @@ function Cards() {
         <div className="project-wrapper">
           <ul className="project-cards">
             <ProjectCard
-              path="/"
+              path="/portfolio-website"
               label="portfolioWebsite"
               img="images/portfolio-logo.png"
               title="Portfolio Website"
