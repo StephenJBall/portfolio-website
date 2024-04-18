@@ -8,6 +8,7 @@
 
 .project-description-container h2 {
     padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 .project-description-container p {
@@ -18,3 +19,18 @@
     text-decoration: none;
     color: #668dcc;
 }
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
