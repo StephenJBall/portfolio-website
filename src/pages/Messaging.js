@@ -1,4 +1,5 @@
 import React from "react";
+import YoutubeEmbed from "../components/YoutubeEmbed";
 
 function Messaging() {
   return (
@@ -20,6 +21,8 @@ function Messaging() {
       >
         <p>Git Hub Repository</p>
       </a>
+      <h2>Video Demo</h2>
+      <YoutubeEmbed embedId='AS8HQCSRzeY'/>
     </div>
   );
 }

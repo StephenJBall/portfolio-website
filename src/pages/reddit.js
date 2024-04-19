@@ -1,4 +1,5 @@
 import React from "react";
+import YoutubeEmbed from "../components/YoutubeEmbed";
 
 function reddit() {
   return (
@@ -19,6 +20,8 @@ function reddit() {
       <h2>Want to have a look at the code?</h2>
       <a href="https://github.com/StephenJBall/reddit-clone" target="_blank">
         <p>Git Hub Repository</p>
+        <h2>Video Demo</h2>
+        <YoutubeEmbed embedId='fCzRqguaYw4'/>
       </a>
     </div>
   );
