@@ -74,3 +74,11 @@ label {
   color: #3c873a;
   transition: all 0.3s ease-out;
 }
+
+
+@media screen and (max-width: 960px) {
+  .skill-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
