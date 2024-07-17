@@ -1,4 +1,5 @@
 import "./App.css";
+import React, {useEffect} from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Bio from "./components/Bio";
@@ -10,6 +11,9 @@ import Messaging from "./pages/Messaging";
 import PortfolioWebsite from "./pages/PortfolioWebsite";
 
 function App() {
+  useEffect(() => {
+    document.title = "Portfolio Website";
+  }, []);
   return (
     <Router>
       <Navbar />
